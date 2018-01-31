@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
             public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
                 super.onScrollStateChanged(recyclerView, newState);
 
+
                 boolean down = recyclerView.canScrollVertically(-1);//表示手指向下滑动
                 boolean up = recyclerView.canScrollVertically(1);//表示手指向上滑动
 
